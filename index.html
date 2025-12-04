@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+</head>
+
+<link rel="stylesheet" href="index.css">
+<body>
+    <div class="konatainer">
+        <div class="kotak1">
+            <p style="color: white; font-family: Arial, Helvetica, sans-serif;">Kalkulator</p>
+            
+
+            <!-- untuk nampilin angka kek hasil misal di klik -->
+            <div id="isi-angka">
+
+            </div>
+
+            <div class="kotak2">
+
+                <!-- kotak bagian 1-->
+        <div class="bagian-satu">
+            <button class="fungsi" onclick="AC()">AC</button>
+            <button class="fungsi" onclick="Hapus()">⌫</button>
+            <button class="fungsi" onclick="Persen()">%</button>
+            <button class="opraator" onclick="Bagi()">÷</button>
+        </div>
+
+
+        <!-- Bagian 2 -->
+        <div class="bagian-dua">
+            <button class="angka" onclick="inputAngka('7')">7</button>
+            <button class="angka" onclick="inputAngka('8')">8</button>
+            <button class="angka" onclick="inputAngka('9')">9</button>
+            <button class="opraator" onclick="Kali()">×</button>
+        </div>
+
+        <!-- Bagian 3 -->
+        <div class="bagian-tiga">
+            <button class="angka" onclick="inputAngka('4')">4</button>
+            <button class="angka" onclick="inputAngka('5')">5</button>
+            <button class="angka" onclick="inputAngka('6')">6</button>
+            <button class="opraator" onclick="Kurang()">-</button>
+        </div>
+
+        <!-- Bagian 4 -->
+        <div class="bagian-empat">
+            <button class="angka" onclick="inputAngka('1')">1</button>
+            <button class="angka" onclick="inputAngka('2')">2</button>
+            <button class="angka" onclick="inputAngka('3')">3</button>
+            <button class="opraator" onclick="Tambah()">+</button>
+        </div>
+
+        <!-- bagian 5 -->
+        <div class="bagian-lima">
+            <button class="fungsi" onclick="NambehBanyak()">?</button>
+            <button class="angka" onclick="inputAngka('0')">0</button>
+            <button class="angka" onclick="Titik()">.</button>
+            <button class="opraator" onclick="SamaDengan()">=</button>
+        </div>
+
+    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

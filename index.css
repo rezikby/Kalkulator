@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e6e6e6;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.konatainer {
+    background: #2d2d2d;
+    padding: 20px;
+    width: 100%;
+    height: 100vh; /*ne kek tnggi layar e */
+}
+
+/* ne bagian isi isis angka e */
+#isi-angka {
+    background: #1b1b1b;
+    color: white;
+    height: 120px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding: 30px;
+    font-size: 50px;
+    border-radius: 5px;
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.6);
+    overflow: hidden;
+}
+
+/* Tombol */
+button {
+    width: 23%;
+    height: 80px;
+    margin: 5px 1%;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.angka {
+    background: #4a4a4a;
+    color: white;
+}
+.angka:hover {
+    background: #5a5a5a;
+}
+
+.opraator{
+    background: #ff9f0a;
+    color: white;
+}
+.opraator:hover {
+    background: #ffb23d;
+}
+
+.fungsi {
+    background: #707070;
+    color: white;
+}
+.fungsi:hover {
+    background: #828282;
+}
+
+/* bagian tumbol */
+.bagian-satu,
+.bagian-dua,
+.bagian-tiga,
+.bagian-empat,
+.bagian-lima {
+    display: flex;
+    margin-bottom: 10px;
+}
